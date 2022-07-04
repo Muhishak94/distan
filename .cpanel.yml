@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1717982/public_html/
+    - /bin/cp db.sqlite3 $DEPLOYPATH
+    - /bin/cp manage.py $DEPLOYPATH
+    - /bin/cp -R distan $DEPLOYPATH
+    - /bin/cp -R tph $DEPLOYPATH
